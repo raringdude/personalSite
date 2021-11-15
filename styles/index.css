@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "title";
+    src: url("../fonts/Viafont.otf");
+}
+
+.title{
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-10%, -50%);
+    font-size: 4em;
+    color: #acacac;
+}
+
+.bigLetter{
+    font-size: larger;
+    color: #20BF55;
+}
+
+.spacer{
+    aspect-ratio: 1920/1080;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    right:0;
+
+    
+}
+
+.thing{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+   
+    
+}
+
+.layer1{
+    background-image: url('../layer1.svg');
+}
+
